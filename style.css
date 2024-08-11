@@ -222,6 +222,16 @@ html{
 }
 
 
+.bg5div{
+    background-image: url('./img/bg5.png');
+    height: 40vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 4rem;
+    background-size: cover;
+    background-position: center;
+}
+
 /* media queries */
 
 
@@ -251,7 +261,7 @@ html{
 
     .bg4div {
         background-image: url(./img/bg4.png);
-        height: 20vh;
+        height: 26vh;
         background-repeat: no-repeat;
         width: 100%;
         padding: 4rem;
