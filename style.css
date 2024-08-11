@@ -1,22 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+html {
     font-size: 62.5%;
 }
 
-.mainbgdiv{
-    background: linear-gradient(90deg,  #EBFBF7 ,  #EBFBF7 , #FBE8D4);
+.mainbgdiv {
+    background: linear-gradient(90deg, #EBFBF7, #EBFBF7, #FBE8D4);
 
     height: 110vh;
 }
 
-.logodiv{
+.logodiv {
     background-color: #02B9F4;
     color: #ffff;
     padding-inline: 2rem;
@@ -24,82 +29,83 @@ html{
 }
 
 
-.logodiv img{
+.logodiv img {
     width: 200px;
 
 }
 
 
-.maindivoffstsection{
- 
+.maindivoffstsection {
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.laptoppic{
+.laptoppic {
     padding-top: 2rem;
 }
-.laptoppic img{
+
+.laptoppic img {
     width: 400px;
 }
 
-.rightsidediv{
+.rightsidediv {
 
     padding-top: 8rem;
     margin-right: 10rem;
 }
 
-.mainsectiondivchildone{
- 
+.mainsectiondivchildone {
+
     width: fit-content;
     padding: 1rem;
-   margin-inline: 4rem;
-   margin-top: 5rem;
+    margin-inline: 4rem;
+    margin-top: 5rem;
 }
 
-.mainsectiondivchildone h1{
+.mainsectiondivchildone h1 {
     color: #E92931;
     font-size: 2.8rem;
 }
 
 
-.mainsectionchild2{
+.mainsectionchild2 {
     margin-inline: 4rem;
     margin-top: 5rem;
 }
 
-.mainsectionchild2 img{
+.mainsectionchild2 img {
     width: 400px;
 }
 
-.childleft3 h1{
+.childleft3 h1 {
     font-size: 2.6rem;
     width: fit-content;
     padding-bottom: 0.5rem;
     text-align: center;
 }
 
-.line{
+.line {
     border: 1px solid black;
     margin: 2px;
 }
 
-.childleft3 span{
+.childleft3 span {
     color: #E92931;
 }
 
 
-.mainthreecards{
+.mainthreecards {
     display: flex;
     gap: 5rem;
     padding-top: 3rem;
     padding-inline: 4rem;
 }
 
-.mainthreecards img{
+.mainthreecards img {
     width: 200px;
-    
+
 }
 
 
@@ -115,7 +121,7 @@ html{
 
 
 
-.bg2childdiv{
+.bg2childdiv {
     border: 1px solid #E92931;
     background-color: #fff;
     margin-inline: 4rem;
@@ -125,13 +131,13 @@ html{
 
 }
 
-#middlechild{
-    
+#middlechild {
+
     width: 100%;
     margin-inline: 0px;
 }
 
-.bg2childdiv h1{
+.bg2childdiv h1 {
     font-size: 3.5rem;
     text-align: center;
     color: #E92931;
@@ -139,18 +145,18 @@ html{
 }
 
 
-.bgthreediv{
+.bgthreediv {
     background-image: url('./img/bg3.png');
     height: 30vh;
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
     padding: 4rem;
-  
+
 }
 
 
-.bg3maindiv{
+.bg3maindiv {
     background: #269248;
     color: #fff;
     text-align: center;
@@ -161,7 +167,7 @@ html{
 }
 
 
-.bg3maindiv h1{
+.bg3maindiv h1 {
     background-color: #fff;
     text-align: center;
     margin: 0 auto;
@@ -172,27 +178,29 @@ html{
 }
 
 
-.bg3maindiv h2{
+.bg3maindiv h2 {
     font-size: 2.5rem;
 }
 
 
-.bg3maindiv span{color: #E92931;}
+.bg3maindiv span {
+    color: #E92931;
+}
 
 
-.bluediv{
+.bluediv {
     background-color: #00B9F2;
     color: white;
     padding: 4rem;
     text-align: center;
 }
 
-.bluediv h1{
+.bluediv h1 {
     font-size: 5rem;
 }
 
 
-.borderdivh1{
+.borderdivh1 {
     border: 1px solid #707070;
     margin-inline: 6rem;
     margin-block: 4rem;
@@ -200,14 +208,14 @@ html{
     text-align: center;
 }
 
-.borderdivh1 h1{
+.borderdivh1 h1 {
     font-size: 4rem;
 }
 
 
-.bg4div{
+.bg4div {
     background-image: url('./img/bg4.png');
-    height: 40vh;
+    height: 49vh;
     background-repeat: no-repeat;
     width: 100%;
     padding: 4rem;
@@ -215,21 +223,115 @@ html{
     background-position: center;
 }
 
-.bg4div h1{
+.bg4div h1 {
     font-size: 4rem;
     color: #fff;
     text-align: center;
 }
 
 
-.bg5div{
+.bg5div {
     background-image: url('./img/bg5.png');
-    height: 40vh;
+    /* height: 40vh; */
     background-repeat: no-repeat;
     width: 100%;
-    padding: 4rem;
+    /* padding: 4rem; */
     background-size: cover;
     background-position: center;
+}
+
+.tickandh2div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.tickandh2div h2 {
+    font-size: 2.5rem;
+    padding-top: 1rem;
+}
+
+.tickandh2div span {
+    color: #E92931;
+    font-size: 2.5rem;
+}
+
+.marktextmaindiv {
+    text-align: center;
+    padding-block: 5rem;
+}
+
+.marktextmaindiv img {
+    width: 600px;
+}
+
+
+.mandotdiv {
+    text-align: center;
+}
+
+.linearborder {
+    padding: 2rem;
+    border: 5px solid transparent;
+    /* Make the border transparent initially */
+    border-image: linear-gradient(90deg, #E92931, #02B9F2);
+    /* Use a linear gradient for the border */
+    border-image-slice: 1;
+    /* Ensure the gradient covers the entire border */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: 25rem;
+    margin-block: 4rem;
+}
+
+.keyimg {
+    width: 510px;
+}
+
+.step1andtext {
+    display: flex;
+    gap: 1rem;
+    align-content: center;
+}
+
+.step1andtext img {
+    width: 100px;
+}
+
+.bgheading2maindiv h1 {
+    background-color: #00B9F2;
+    color: #fff;
+    margin: 1rem;
+    font-size: 2.5rem;
+}
+
+.bgheading2maindiv h2 {
+    background-color: #00B9F2;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.cardcontentdiv h3 {
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.cardcontentdiv b {
+    border-bottom: 6px solid yellow;
+}
+
+.cardcontentdiv span {
+    color: #E92931;
+}
+
+.redb {
+    color: black;
 }
 
 /* media queries */
@@ -250,6 +352,7 @@ html{
         background: linear-gradient(90deg, #EBFBF7, #EBFBF7, #FBE8D4);
         height: 90vh;
     }
+
     .bgthreediv {
         background-image: url(./img/bg3.png);
         height: 23vh;
@@ -275,12 +378,15 @@ html{
     .mainsectiondivchildone h1 {
         font-size: 1.4rem;
     }
-    .mainsectionchild2 img{
+
+    .mainsectionchild2 img {
         width: 280px;
     }
+
     .childleft3 h1 {
         font-size: 2.2rem;
     }
+
     .laptoppic img {
         width: 360px;
     }
@@ -297,39 +403,39 @@ html{
         height: 66vh;
     }
 
-    .mainthreecards{
+    .mainthreecards {
         gap: 2rem;
         padding-inline: 2rem;
     }
 
-    .mainthreecards img{
+    .mainthreecards img {
         width: 100px;
         height: 100px;
-        
+
     }
-    
+
     .mainsectionchild2 {
         margin-inline: 4rem;
         margin-top: 3rem;
         text-align: center;
     }
-    
+
     .mainsectiondivchildone {
-   
+
         margin-top: 2rem;
     }
 
     .bg2childdiv h1 {
         font-size: 1.8rem;
-  
+
     }
 
-    .bg2childdiv{
+    .bg2childdiv {
         padding: 0px;
     }
 
-    
-    
+
+
     .bg2div {
         height: 26vh;
         padding: 2rem;
@@ -343,7 +449,7 @@ html{
         font-size: 2rem;
     }
 
-    .bg3maindiv h1{
+    .bg3maindiv h1 {
         padding: 0.5rem;
     }
 }
