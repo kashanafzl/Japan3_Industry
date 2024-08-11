@@ -248,6 +248,16 @@ html{
         background-size: cover;
         padding: 4rem;
     }
+
+    .bg4div {
+        background-image: url(./img/bg4.png);
+        height: 20vh;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 4rem;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 
