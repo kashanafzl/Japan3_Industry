@@ -180,6 +180,47 @@ html{
 .bg3maindiv span{color: #E92931;}
 
 
+.bluediv{
+    background-color: #00B9F2;
+    color: white;
+    padding: 4rem;
+    text-align: center;
+}
+
+.bluediv h1{
+    font-size: 5rem;
+}
+
+
+.borderdivh1{
+    border: 1px solid #707070;
+    margin-inline: 6rem;
+    margin-block: 4rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+.borderdivh1 h1{
+    font-size: 4rem;
+}
+
+
+.bg4div{
+    background-image: url('./img/bg4.png');
+    height: 40vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 4rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg4div h1{
+    font-size: 4rem;
+    color: #fff;
+    text-align: center;
+}
+
 
 /* media queries */
 
