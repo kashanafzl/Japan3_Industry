@@ -323,7 +323,7 @@ html {
 .cardcontentdiv h3 {
     font-size: 1.2rem;
     font-weight: 400;
-    text-align: center;
+    text-align: left;
     margin: 1rem 0;
 }
 
@@ -505,7 +505,7 @@ html {
 
     .mainbgdiv {
         background: linear-gradient(90deg, #EBFBF7, #EBFBF7, #FBE8D4);
-        height: 90vh;
+        height: 70vh;
     }
 
     .bgthreediv {
@@ -575,7 +575,10 @@ html {
         padding: 2rem;
         text-align: center;
     }
-
+    .step1andtext img {
+        width: 100%;
+        max-width: 75px;
+    }
     .bg4div h1 {
         font-size: 2rem;
         color: #fff;
@@ -660,5 +663,29 @@ html {
 
     .bg3maindiv h1 {
         padding: 0.5rem;
+    }
+
+    @media screen and (max-width:400px) {
+        .mainbgdiv {
+            background: linear-gradient(90deg, #EBFBF7, #EBFBF7, #FBE8D4);
+            height: 100vh;
+        }
+
+        .bg2div {
+            height: 38vh;
+            padding: 2rem;
+        }
+
+        .tickandh2div span {
+            color: #E92931;
+            font-size: 1.8rem;
+        }
+        .tickandh2div h2 {
+            font-size: 1.8rem;
+            padding-top: 1rem;
+        }
+        .maindotimg {
+            width: 286px;
+        }
     }
 }
