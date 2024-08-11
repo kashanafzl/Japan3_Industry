@@ -103,15 +103,16 @@ html{
 }
 
 
-.bg2div{
-   background-image: url('./img/bg2.png');
-   height: 70vh;
-   background-repeat: no-repeat;
-   width: 100%;
-   padding: 4rem;
-   background-size: cover;
-   
+.bg2div {
+    background-image: url(./img/bg2.png);
+    height: 70vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 4rem;
+    background-size: cover;
+    background-position: center;
 }
+
 
 
 .bg2childdiv{
@@ -183,6 +184,32 @@ html{
 /* media queries */
 
 
+@media screen and (max-width:1150px) {
+    .bg2div {
+        background-image: url(./img/bg2.png);
+        height: 42vh;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 4rem;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .mainbgdiv {
+        background: linear-gradient(90deg, #EBFBF7, #EBFBF7, #FBE8D4);
+        height: 90vh;
+    }
+    .bgthreediv {
+        background-image: url(./img/bg3.png);
+        height: 23vh;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        padding: 4rem;
+    }
+}
+
+
 @media screen and (max-width:500px) {
     .mainsectiondivchildone h1 {
         font-size: 1.4rem;
@@ -202,6 +229,11 @@ html{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .mainbgdiv {
+        background: linear-gradient(90deg, #EBFBF7, #EBFBF7, #FBE8D4);
+        height: 66vh;
     }
 
     .mainthreecards{
@@ -238,9 +270,8 @@ html{
     
     
     .bg2div {
-      height: 42vh;
+        height: 26vh;
         padding: 2rem;
-      
     }
 
     .bg3maindiv {
