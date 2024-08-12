@@ -176,12 +176,12 @@ html {
     color: black;
     width: fit-content;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 
 .bg3maindiv h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 
@@ -517,14 +517,76 @@ html {
 }
 
 
+.qdiv{
+    margin-block: 2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    background-color: #00B9F2;
+    color: #ffff;
+    padding: 2rem;
+}
 
 
+.mainboxborderdiv{
+    border: 2px solid #00B9F2;
+    margin-inline: 15rem;
+    padding: 2rem;
+}
+
+.maindivofcccc{
+    margin-inline: 15rem;
+}
+
+.qimg{
+    background-color: #fff;
+    padding: 0.5rem;
+}
+
+.qdiv h1{
+    font-size: 2.8rem;
+}
+
+.aandpmaindiv{
+    display: flex;
+    gap: 3rem;
+}
+
+.bga{
+    background-color: #00B9F2;
+    padding: 0.5rem;
+}
+
+.pmaindivofa{
+    width: 40%;
+}
+
+.Aorp{
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 3.5rem;
+}
 
 
+.mainppppadiv{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border: 2px solid #00B9F2;
+    padding: 2rem;
+}
 
 
+.mainppppadiv p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 3.5rem;
+    width: 40%;
+}
 
-
+.mainqaqadiv{
+    margin-inline: 15rem;
+}
 
 
 @media (min-width: 768px) {
@@ -697,6 +759,30 @@ html {
 
         padding: 2rem;
     
+    }
+
+    .mainqaqadiv {
+        margin-inline: 2rem;
+    }
+    .mainppppadiv p {
+        font-size: 1.8rem;
+        font-weight: bold;
+        line-height: 3.5rem;
+        width: 100%;
+    }
+
+    .maindivofcccc {
+        margin-inline: 2rem;
+    }
+
+    .mainboxborderdiv {
+        border: 2px solid #00B9F2;
+        margin-inline: 2rem;
+        padding: 2rem;
+    }
+
+    .pmaindivofa {
+        width: 100%;
     }
 
     .scard1div img {
