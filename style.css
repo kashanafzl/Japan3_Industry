@@ -484,6 +484,49 @@ html {
     margin: 0; /* Remove default margin */
 }
 
+.mainflexsdiv{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-block: 7rem;
+}
+
+.scard1div{
+    border: 2px solid #00B9F2;
+    text-align: center;
+    width: 250px;
+
+}
+
+.scard1div h1{
+    background-color: #00B9F2;
+    color: #fff;
+    padding: 1rem;
+    font-size: 2.8rem;
+}
+
+.scard1div img{
+    width: 120px;
+    padding-block: 2rem;
+}
+
+
+.scard1div p{
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 768px) {
     .mainflexdivoftick2 {
         flex-direction: row; /* Stack items horizontally on larger screens */
@@ -654,6 +697,30 @@ html {
 
         padding: 2rem;
     
+    }
+
+    .scard1div img {
+        width: 90px;
+        padding-block: 2rem;
+    }
+
+    .mainflexsdiv {
+        display: flex;
+        /* justify-content: center; */
+        gap: 2rem;
+        margin-block: 6rem;
+        margin-inline: 2rem;
+    }
+
+    .scard1div p {
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+
+    .scard1div h1 {
+
+        font-size: 2rem;
     }
 
     .tickandh2div h2 {
