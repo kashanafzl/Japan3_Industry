@@ -431,7 +431,7 @@ html {
 
 .mainflexdivoftick2 {
     display: flex;
-    flex-direction: column; /* Stack items vertically on smaller screens */
+
     gap: 2rem; /* Adjust gap for better spacing */
     border: 1px solid black;
     padding: 2rem;
@@ -571,12 +571,36 @@ html {
 }
 
 
+.longh1div h1{
+
+    color: #00B9F2;
+    font-size: 4rem;
+    border-bottom: 2px solid #00B9F2;
+    padding-inline: 4rem;
+}
+
+.longpdiv p{
+    font-size: 2rem;
+    padding-inline: 4rem;
+    width: 90%;
+}
+
 .mainppppadiv{
     display: flex;
     align-items: center;
     gap: 2rem;
     border: 2px solid #00B9F2;
     padding: 2rem;
+}
+
+
+.transldiv{
+    transform: translateX(7px);
+}
+
+
+.transldiv{
+    transform: translateX(-9px);
 }
 
 
@@ -746,6 +770,58 @@ html {
         font-size: 1.4rem;
     }
 
+
+    .longh1div h1{
+
+        color: #00B9F2;
+        font-size: 2.5rem;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        border-bottom: 2px solid #00B9F2;
+        padding-inline: 4rem;
+    }
+    
+    .longpdiv p{
+        font-size: 1.6rem;
+        padding-inline: 4rem;
+        width: 100%;
+        padding-top: 3rem;
+    }
+
+    .transldiv{
+        transform: translateX(0px);
+    }
+    
+    
+    .transldiv{
+        transform: translateX(0px);
+    }
+    
+
+    .logologo2{
+        width: 130px;
+    }
+
+    .imgandtick2flex h2 {
+        font-size: 1.5rem;
+
+    }
+    
+    .lastpp {
+        padding-inline: 3rem;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    
+
+    
+
+    .htt h1 {
+        font-size: 3rem;
+
+    }
+
+
     .mainsectionchild2 img {
         width: 280px;
     }
@@ -909,16 +985,28 @@ html {
 
 
     .bg2div {
-        height: 26vh;
+        height: 24vh;
         padding: 2rem;
     }
+
+    .bg3maindiv h1 {
+        background-color: #fff;
+        text-align: center;
+        margin: 0 auto;
+        color: black;
+        width: fit-content;
+        padding: 1rem;
+        font-size: 2.5rem;
+    }
+
+
 
     .bg3maindiv {
         margin-inline: 0rem;
     }
 
     .bg3maindiv h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .bg3maindiv h1 {
