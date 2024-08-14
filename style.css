@@ -113,7 +113,7 @@ html {
 
 .bg2div {
     background-image: url(./img/bg2.png);
-    height: 70vh;
+    height: 65vh;
     background-repeat: no-repeat;
     width: 100%;
     padding: 4rem;
@@ -220,7 +220,7 @@ html {
     height: 49vh;
     background-repeat: no-repeat;
     width: 100%;
-    padding: 4rem;
+    /* padding: 4rem; */
     background-size: cover;
     background-position: center;
 }
@@ -228,6 +228,7 @@ html {
 .bg4div h1 {
     font-size: 4rem;
     color: #fff;
+    padding-block: 7rem;
     text-align: center;
 }
 
@@ -457,6 +458,7 @@ html {
     display: flex;
     align-items: center; /* Center items vertically */
     gap: 1rem; /* Space between icon and text */
+    padding-top: 1rem;
 }
 
 .tick2 {
@@ -465,7 +467,7 @@ html {
 }
 
 .imgandtick2flex h2 {
-    font-size: 1.5rem; /* Adjust font size for readability */
+    font-size: 1.7rem; /* Adjust font size for readability */
     border-bottom: 2px solid black;
     padding-bottom: 0.5rem;
     margin: 0; /* Remove default margin */
@@ -477,7 +479,7 @@ html {
 }
 
 .htt h1 {
-    font-size: 4rem; /* Adjust font size for responsiveness */
+    font-size: 5rem; /* Adjust font size for responsiveness */
     border-bottom: 12px solid #FFEA74;
     display: inline-block; /* Make the border fit content */
     padding-bottom: 0.5rem; /* Padding for bottom border */
@@ -565,6 +567,7 @@ html {
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 3.5rem;
+    width: 190%;
 }
 
 
@@ -581,7 +584,7 @@ html {
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 3.5rem;
-    width: 40%;
+    width: 80%;
 }
 
 .mainqaqadiv{
@@ -685,7 +688,7 @@ html {
 
 @media (min-width: 900px) {
     .linearborder {
-        max-width: 50%;
+        max-width: 43%;
     }
 
     .bgheading2maindiv h1,
