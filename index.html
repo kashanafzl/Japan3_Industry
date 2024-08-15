@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+
+
 </head>
 
 <body>
@@ -85,7 +87,7 @@
 
         <div class="bg3maindiv">
             <h1>利用開始までわずか <span>５分</span></h1>
-            <h2>30日間無料で体験する</h2>
+            <h2>30日間 <b class="bg3b"> 無料で体験 </b> する</h2>
 
         </div>
 
@@ -105,7 +107,7 @@
     <div class="bg4div">
 
         <h1>あなたはメルカリ販売をする上で <br>
-            こんなお悩みありませんか？
+            こんな <b class="bg4b"> お悩み </b> ありませんか？
         </h1>
 
     </div>
@@ -431,9 +433,99 @@
         <h1>お客様の声</h1>
     </div>
 
-
+    <!-- 
     <h1>Here SLider i usee </h1>
+ -->
 
+    <div class="slider">
+        <div class="slides">
+            <div class="slide card">
+
+                <h2 class="voicediv">Voice 1</h2>
+
+
+                <div class="slidermainflex">
+                    <div>
+                        <img class="sliderimg" src="./img/slider2.png" alt="">
+                    </div>
+
+                    <div class="slidermaindata">
+                        <h1>YONE さま</h1>
+                        <h2>41歳</h2>
+                        <h6>広島県 在住</h6>
+                    </div>
+                </div>
+
+                <div>
+                    <p>リサーチ外注さんを数名雇ってるけど、
+                        いい（売れてる）アイテムがあがってくるか
+                        こないかドキドキなのに、
+                        コレはパッと見つかっちゃうから
+                        外注さん何人分の働きをしてくれるの！？って
+                        驚きました。</p>
+                </div>
+
+
+            </div>
+
+
+            <div class="slide card">
+
+                <h2 class="voicediv">Voice 1</h2>
+
+
+                <div class="slidermainflex">
+                    <div>
+                        <img class="sliderimg" src="./img/slider1.png" alt="">
+                    </div>
+
+                    <div class="slidermaindata">
+                        <h1>しんや さま</h1>
+                        <!-- <h2>41歳</h2>
+                        <h6>広島県 在住</h6> -->
+                    </div>
+                </div>
+
+                <div>
+                    <p>リサーチ外注さんを数名雇ってるけど、
+                        いい（売れてる）アイテムがあがってくるか
+                        こないかドキドキなのに、
+                        コレはパッと見つかっちゃうから
+                        外注さん何人分の働きをしてくれるの！？って
+                        驚きました。</p>
+                </div>
+
+
+            </div>
+
+            <div class="slide card">
+
+                <h2 class="voicediv">Voice 1</h2>
+
+
+                <div class="slidermainflex">
+                    <div>
+                        <img class="sliderimg" src="./img/slider3.png" alt="">
+                    </div>
+
+                    <div class="slidermaindata">
+                        <h1>YONE さま</h1>
+                        <h2>41歳</h2>
+                        <h6>広島県 在住</h6>
+                    </div>
+                </div>
+
+                <div>
+                    <p>リサーチ外注さんを数名雇ってるけど、
+                        いい（売れてる）アイテムがあがってくるか
+                        こないかドキドキなのに、
+                        コレはパッと見つかっちゃうから
+                        外注さん何人分の働きをしてくれるの！？って
+                        驚きました。</p>
+                </div>
+
+
+            </div>
 
     <div class="bluediv">
         <h1>よくある質問</h1>
@@ -930,6 +1022,22 @@
     </div>
 
 
+
+    <script>
+        const slides = document.querySelector('.slides');
+let index = 0;
+
+function showNextSlide() {
+    index++;
+    if (index >= slides.children.length) {
+        index = 0;
+    }
+    slides.style.transform = `translateX(-${index * 100}%)`;
+}
+
+setInterval(showNextSlide, 3000);
+
+    </script>
 
 </body>
 

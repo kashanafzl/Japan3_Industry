@@ -140,10 +140,11 @@ html {
 }
 
 .bg2childdiv h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     text-align: center;
     color: #E92931;
-    margin-top: 1rem;
+    font-weight: 500;
+    /* margin-top: 1rem; */
 }
 
 
@@ -175,8 +176,9 @@ html {
     margin: 0 auto;
     color: black;
     width: fit-content;
-    padding: 1rem;
+    padding: 0.7rem;
     font-size: 3rem;
+    padding-inline: 2rem;
 }
 
 
@@ -187,13 +189,18 @@ html {
 
 .bg3maindiv span {
     color: #E92931;
+    font-size: 4rem;
+}
+
+.bg3b{
+    font-size: 5rem;
 }
 
 
 .bluediv {
     background-color: #00B9F2;
     color: white;
-    padding: 4rem;
+    padding: 5rem;
     text-align: center;
 }
 
@@ -206,12 +213,13 @@ html {
     border: 1px solid #707070;
     margin-inline: 6rem;
     margin-block: 4rem;
-    padding: 4rem;
+    padding: 7rem;
     text-align: center;
 }
 
 .borderdivh1 h1 {
-    font-size: 4rem;
+    font-size: 5rem;
+    font-weight: 500;
 }
 
 
@@ -228,8 +236,13 @@ html {
 .bg4div h1 {
     font-size: 4rem;
     color: #fff;
-    padding-block: 7rem;
+    padding-block: 6rem;
     text-align: center;
+}
+
+
+.bg4b{
+    font-size: 5rem;
 }
 
 
@@ -238,7 +251,7 @@ html {
     /* height: 40vh; */
     background-repeat: no-repeat;
     width: 100%;
-    /* padding: 4rem; */
+    padding: 4rem;
     background-size: cover;
     background-position: center;
 }
@@ -270,7 +283,7 @@ html {
 }
 
 .marktextmaindiv img {
-    width: 600px;
+    width: 650px;
 }
 
 
@@ -577,13 +590,17 @@ html {
     font-size: 4rem;
     border-bottom: 2px solid #00B9F2;
     padding-inline: 4rem;
+    padding-block: 3rem;
+
 }
 
 .longpdiv p{
     font-size: 2rem;
     padding-inline: 4rem;
     width: 90%;
+    padding-block: 4rem;
 }
+
 
 .mainppppadiv{
     display: flex;
@@ -594,14 +611,6 @@ html {
 }
 
 
-.transldiv{
-    transform: translateX(7px);
-}
-
-
-.transldiv{
-    transform: translateX(-9px);
-}
 
 
 .mainppppadiv p{
@@ -630,7 +639,91 @@ html {
 
 
 
+.slider {
+    height: 600px;
+    width: 40%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #02B9F2;
+    margin-block: 6rem;
+}
 
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slidermainflex{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: 2px solid #00B9F2;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.sliderimg{
+    width: 160px;
+}
+
+
+.slidermaindata h1{
+    color: #00B9F2;
+    font-size: 3rem;
+}
+
+.slidermaindata h2{
+
+    font-size: 3rem;
+}
+
+.slidermaindata h6{
+ 
+    font-size: 2rem;
+}
+
+.voicediv{
+    font-size: 4rem;
+    padding: 1rem;
+    background-color: #00B9F2;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.card p {
+    font-size: 16px;
+    padding-top: 2rem;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .card h2 {
+        font-size: 20px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+}
 
 
 
@@ -717,11 +810,12 @@ html {
 
     .bgheading2maindiv h1,
     .bgheading2maindiv h2 {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
     }
 
     .cardcontentdiv h3 {
         font-size: 2rem;
+        font-weight: 500;
     }
 }
 
@@ -730,8 +824,9 @@ html {
 
 @media screen and (max-width:1150px) {
     .bg2div {
+        transform: translateY(-10px);
         background-image: url(./img/bg2.png);
-        height: 42vh;
+        height: 40vh;
         background-repeat: no-repeat;
         width: 100%;
         padding: 4rem;
@@ -751,14 +846,16 @@ html {
         width: 100%;
         background-size: cover;
         padding: 4rem;
+        transform: translateY(-20px);
+
     }
 
     .bg4div {
         background-image: url(./img/bg4.png);
-        height: 26vh;
+        height: 29vh;
         background-repeat: no-repeat;
         width: 100%;
-        padding: 4rem;
+        /* padding: 4rem; */
         background-size: cover;
         background-position: center;
     }
