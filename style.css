@@ -75,7 +75,7 @@ html {
     font-weight: 500;
 }
 
-.mainsectiondivchildone h1::before{
+.mainsectiondivchildone h1::before {
     position: absolute;
     content: '';
     width: 19px;
@@ -87,7 +87,7 @@ html {
     bottom: -13px;
     left: 46%;
     background: #ebfbf7;
-    
+
 }
 
 .mainsectionchild2 {
@@ -123,7 +123,7 @@ html {
     padding-inline: 4rem;
 }
 
-.mainthreetickdiv{
+.mainthreetickdiv {
     width: 55%;
     margin: auto;
     padding-block: 2rem;
@@ -151,10 +151,10 @@ html {
     flex-direction: column;
     gap: 1rem;
 
-    
+
 }
 
-.bg2div::before{
+.bg2div::before {
     position: absolute;
     content: '';
     width: 95px;
@@ -243,7 +243,7 @@ html {
     font-size: 4rem;
 }
 
-.bg3b{
+.bg3b {
     font-size: 5rem;
 }
 
@@ -280,7 +280,7 @@ html {
     padding: 4rem;
 }
 
-.bg4div::before{
+.bg4div::before {
     position: absolute;
     content: '';
     width: 63px;
@@ -302,7 +302,7 @@ html {
 }
 
 
-.bg4b{
+.bg4b {
     font-size: 5rem;
 }
 
@@ -352,6 +352,7 @@ html {
 .mandotdiv {
     text-align: center;
 }
+
 .linearborder {
     padding: 2rem;
     border: 5px solid transparent;
@@ -418,7 +419,7 @@ html {
 }
 
 
-.lastpp{
+.lastpp {
     font-size: 2rem;
     text-align: center;
 }
@@ -486,10 +487,13 @@ html {
 
 .maindivoftick2 {
     border: 5px solid #E92931;
-    margin: 2rem auto; /* Center the container and add margin */
+    margin: 2rem auto;
+    /* Center the container and add margin */
     padding: 2rem;
-    max-width: 700px; /* Limit the maximum width for better readability */
-    box-sizing: border-box; /* Ensure padding is included in width */
+    max-width: 700px;
+    /* Limit the maximum width for better readability */
+    box-sizing: border-box;
+    /* Ensure padding is included in width */
 }
 
 .bgredcolor {
@@ -500,14 +504,17 @@ html {
 }
 
 .bgredcolor h1 {
-    font-size: 2.5rem; /* Adjust font size for responsiveness */
-    margin: 0; /* Remove default margin */
+    font-size: 2.5rem;
+    /* Adjust font size for responsiveness */
+    margin: 0;
+    /* Remove default margin */
 }
 
 .mainflexdivoftick2 {
     display: flex;
 
-    gap: 2rem; /* Adjust gap for better spacing */
+    gap: 2rem;
+    /* Adjust gap for better spacing */
     border: 1px solid black;
     padding: 2rem;
     margin-top: 2rem;
@@ -515,37 +522,48 @@ html {
 
 .logo-container {
     display: flex;
-    justify-content: center; /* Center logo horizontally */
+    justify-content: center;
+    /* Center logo horizontally */
 }
 
 .logo-container img {
-    max-width: 100%; /* Ensure the image is responsive */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+    /* Ensure the image is responsive */
+    height: auto;
+    /* Maintain aspect ratio */
 }
 
 .features {
     display: flex;
-    flex-direction: column; /* Stack feature items vertically */
-    gap: 1rem; /* Space between feature items */
+    flex-direction: column;
+    /* Stack feature items vertically */
+    gap: 1rem;
+    /* Space between feature items */
 }
 
 .imgandtick2flex {
     display: flex;
-    align-items: center; /* Center items vertically */
-    gap: 1rem; /* Space between icon and text */
+    align-items: center;
+    /* Center items vertically */
+    gap: 1rem;
+    /* Space between icon and text */
     padding-top: 1rem;
 }
 
 .tick2 {
-    width: 30px; /* Adjust size as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 30px;
+    /* Adjust size as needed */
+    height: auto;
+    /* Maintain aspect ratio */
 }
 
 .imgandtick2flex h2 {
-    font-size: 1.7rem; /* Adjust font size for readability */
+    font-size: 1.7rem;
+    /* Adjust font size for readability */
     border-bottom: 2px solid black;
     padding-bottom: 0.5rem;
-    margin: 0; /* Remove default margin */
+    margin: 0;
+    /* Remove default margin */
 }
 
 .htt {
@@ -554,47 +572,51 @@ html {
 }
 
 .htt h1 {
-    font-size: 5rem; /* Adjust font size for responsiveness */
+    font-size: 5rem;
+    /* Adjust font size for responsiveness */
     border-bottom: 12px solid #FFEA74;
-    display: inline-block; /* Make the border fit content */
-    padding-bottom: 0.5rem; /* Padding for bottom border */
-    margin: 0; /* Remove default margin */
+    display: inline-block;
+    /* Make the border fit content */
+    padding-bottom: 0.5rem;
+    /* Padding for bottom border */
+    margin: 0;
+    /* Remove default margin */
 }
 
-.mainflexsdiv{
+.mainflexsdiv {
     display: flex;
     justify-content: center;
     gap: 5rem;
     margin-block: 7rem;
 }
 
-.scard1div{
+.scard1div {
     border: 2px solid #00B9F2;
     text-align: center;
     width: 250px;
 
 }
 
-.scard1div h1{
+.scard1div h1 {
     background-color: #00B9F2;
     color: #fff;
     padding: 1rem;
     font-size: 2.8rem;
 }
 
-.scard1div img{
+.scard1div img {
     width: 120px;
     padding-block: 2rem;
 }
 
 
-.scard1div p{
+.scard1div p {
     font-size: 2.5rem;
     padding-bottom: 2rem;
 }
 
 
-.qdiv{
+.qdiv {
     margin-block: 2rem;
     display: flex;
     gap: 2rem;
@@ -605,40 +627,40 @@ html {
 }
 
 
-.mainboxborderdiv{
+.mainboxborderdiv {
     border: 2px solid #00B9F2;
     margin-inline: 15rem;
     padding: 2rem;
 }
 
-.maindivofcccc{
+.maindivofcccc {
     margin-inline: 15rem;
 }
 
-.qimg{
+.qimg {
     background-color: #fff;
     padding: 0.5rem;
 }
 
-.qdiv h1{
+.qdiv h1 {
     font-size: 2.8rem;
 }
 
-.aandpmaindiv{
+.aandpmaindiv {
     display: flex;
     gap: 3rem;
 }
 
-.bga{
+.bga {
     background-color: #00B9F2;
     padding: 0.5rem;
 }
 
-.pmaindivofa{
+.pmaindivofa {
     width: 40%;
 }
 
-.Aorp{
+.Aorp {
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 3.5rem;
@@ -646,7 +668,7 @@ html {
 }
 
 
-.longh1div h1{
+.longh1div h1 {
 
     color: #00B9F2;
     font-size: 4rem;
@@ -656,7 +678,7 @@ html {
 
 }
 
-.longpdiv p{
+.longpdiv p {
     font-size: 2rem;
     padding-inline: 4rem;
     width: 90%;
@@ -664,7 +686,7 @@ html {
 }
 
 
-.mainppppadiv{
+.mainppppadiv {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -675,27 +697,31 @@ html {
 
 
 
-.mainppppadiv p{
+.mainppppadiv p {
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 3.5rem;
     width: 80%;
 }
 
-.mainqaqadiv{
+.mainqaqadiv {
     margin-inline: 15rem;
 }
 
 
 @media (min-width: 768px) {
     .mainflexdivoftick2 {
-        flex-direction: row; /* Stack items horizontally on larger screens */
-        align-items: center; /* Center items vertically */
+        flex-direction: row;
+        /* Stack items horizontally on larger screens */
+        align-items: center;
+        /* Center items vertically */
     }
 
     .features {
-        flex-direction: row; /* Arrange features side by side */
-        flex-wrap: wrap; /* Wrap items to next line if needed */
+        flex-direction: row;
+        /* Arrange features side by side */
+        flex-wrap: wrap;
+        /* Wrap items to next line if needed */
     }
 }
 
@@ -733,13 +759,13 @@ html {
     align-items: center;
 } */
 
-.maindivsliers{
+.maindivsliers {
 
     display: flex;
     justify-content: center;
 }
 
-.slidermainflex{
+.slidermainflex {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -748,27 +774,27 @@ html {
     padding-bottom: 2rem;
 }
 
-.sliderimg{
+.sliderimg {
     width: 160px;
 }
 
 
-.slidermaindata h1{
+.slidermaindata h1 {
     color: #00B9F2;
     font-size: 3rem;
 }
 
-.slidermaindata h2{
+.slidermaindata h2 {
 
     font-size: 3rem;
 }
 
-.slidermaindata h6{
- 
+.slidermaindata h6 {
+
     font-size: 2rem;
 }
 
-.voicediv{
+.voicediv {
     font-size: 4rem;
     padding: 1rem;
     background-color: #00B9F2;
@@ -897,7 +923,7 @@ html {
 
 
     .mainsectiondivchildone h1 {
-  
+
         font-size: 2.5rem;
 
     }
@@ -905,7 +931,7 @@ html {
 
 
 
-  
+
 }
 
 
@@ -935,18 +961,18 @@ html {
 
 
     .bga {
-    background-color: #00B9F2;
-    padding: 0.5rem;
-    width: 40px;
-    height: 58px;
-}
+        background-color: #00B9F2;
+        padding: 0.5rem;
+        width: 40px;
+        height: 58px;
+    }
 
-.qimg{
-    width: 40px;
-    height: 58px;
-}
+    .qimg {
+        width: 40px;
+        height: 58px;
+    }
 
-    .longh1div h1{
+    .longh1div h1 {
 
         color: #00B9F2;
         font-size: 2.5rem;
@@ -955,25 +981,25 @@ html {
         border-bottom: 2px solid #00B9F2;
         padding-inline: 4rem;
     }
-    
-    .longpdiv p{
+
+    .longpdiv p {
         font-size: 1.6rem;
         padding-inline: 4rem;
         width: 100%;
         padding-top: 3rem;
     }
 
-    .transldiv{
+    .transldiv {
         transform: translateX(0px);
     }
-    
-    
-    .transldiv{
-        transform: translateX(0px);
-    }
-    
 
-    .logologo2{
+
+    .transldiv {
+        transform: translateX(0px);
+    }
+
+
+    .logologo2 {
         width: 130px;
     }
 
@@ -981,15 +1007,15 @@ html {
         font-size: 1.5rem;
 
     }
-    
+
     .lastpp {
         padding-inline: 3rem;
         font-size: 1.6rem;
         text-align: center;
     }
-    
 
-    
+
+
 
     .htt h1 {
         font-size: 3rem;
@@ -1012,17 +1038,18 @@ html {
     .bg5div {
 
         padding: 2rem;
-    
+
     }
 
-    .slidermaindata h1{
+    .slidermaindata h1 {
         font-size: 2rem;
     }
-    
+
 
     .mainqaqadiv {
         margin-inline: 2rem;
     }
+
     .mainppppadiv p {
         font-size: 1.6rem;
         font-weight: bold;
@@ -1088,35 +1115,40 @@ html {
         width: 365px;
     }
 
-    .maindotimg{
+    .maindotimg {
         width: 380px;
     }
 
     .bluediv h1 {
         font-size: 3rem;
     }
+
     .bluediv {
         background-color: #00B9F2;
         color: white;
         padding: 2rem;
         text-align: center;
     }
+
     .step1andtext img {
         width: 100%;
         max-width: 75px;
     }
+
     .bg4div h1 {
         font-size: 2rem;
         color: #fff;
         text-align: center;
     }
+
     .borderdivh1 h1 {
         font-size: 2rem;
     }
+
     .borderdivh1 {
-   
+
         padding: 1rem;
-      
+
     }
 
 
@@ -1187,6 +1219,7 @@ html {
     .bg3b {
         font-size: 2rem;
     }
+
     .bg4b {
         font-size: 3rem;
     }
@@ -1234,18 +1267,18 @@ html {
 
 
     .bga {
-    background-color: #00B9F2;
-    padding: 0.5rem;
-    width: 40px;
-    height: 58px;
-}
+        background-color: #00B9F2;
+        padding: 0.5rem;
+        width: 40px;
+        height: 58px;
+    }
 
-.qimg{
-    width: 40px;
-    height: 58px;
-}
+    .qimg {
+        width: 40px;
+        height: 58px;
+    }
 
-    .longh1div h1{
+    .longh1div h1 {
 
         color: #00B9F2;
         font-size: 2.5rem;
@@ -1254,25 +1287,25 @@ html {
         border-bottom: 2px solid #00B9F2;
         padding-inline: 4rem;
     }
-    
-    .longpdiv p{
+
+    .longpdiv p {
         font-size: 1.6rem;
         padding-inline: 4rem;
         width: 100%;
         padding-top: 3rem;
     }
 
-    .transldiv{
+    .transldiv {
         transform: translateX(0px);
     }
-    
-    
-    .transldiv{
-        transform: translateX(0px);
-    }
-    
 
-    .logologo2{
+
+    .transldiv {
+        transform: translateX(0px);
+    }
+
+
+    .logologo2 {
         width: 130px;
     }
 
@@ -1280,15 +1313,15 @@ html {
         font-size: 1.5rem;
 
     }
-    
+
     .lastpp {
         padding-inline: 3rem;
         font-size: 1.6rem;
         text-align: center;
     }
-    
 
-    
+
+
 
     .htt h1 {
         font-size: 3rem;
@@ -1311,17 +1344,18 @@ html {
     .bg5div {
 
         padding: 2rem;
-    
+
     }
 
-    .slidermaindata h1{
+    .slidermaindata h1 {
         font-size: 2rem;
     }
-    
+
 
     .mainqaqadiv {
         margin-inline: 2rem;
     }
+
     .mainppppadiv p {
         font-size: 1.6rem;
         font-weight: bold;
@@ -1387,35 +1421,40 @@ html {
         width: 365px;
     }
 
-    .maindotimg{
+    .maindotimg {
         width: 380px;
     }
 
     .bluediv h1 {
         font-size: 3rem;
     }
+
     .bluediv {
         background-color: #00B9F2;
         color: white;
         padding: 2rem;
         text-align: center;
     }
+
     .step1andtext img {
         width: 100%;
         max-width: 75px;
     }
+
     .bg4div h1 {
         font-size: 2rem;
         color: #fff;
         text-align: center;
     }
+
     .borderdivh1 h1 {
         font-size: 2rem;
     }
+
     .borderdivh1 {
-   
+
         padding: 1rem;
-      
+
     }
 
 
@@ -1486,6 +1525,7 @@ html {
     .bg3b {
         font-size: 2rem;
     }
+
     .bg4b {
         font-size: 3rem;
     }
@@ -1518,17 +1558,19 @@ html {
     }
 
     @media screen and (max-width:400px) {
-    
+
 
 
         .tickandh2div span {
             color: #E92931;
             font-size: 1.8rem;
         }
+
         .tickandh2div h2 {
             font-size: 1.8rem;
             padding-top: 1rem;
         }
+
         .maindotimg {
             width: 286px;
         }
