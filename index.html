@@ -1248,18 +1248,27 @@
 
 
     <script>
-        const slides = document.querySelector('.slides');
-        let index = 0;
+ const slides = document.querySelector('.slides');
+let index = 0;
 
-        function showNextSlide() {
+function showNextSlide() {
+    index++;
+    if (index >= slides.children.length) {
+        index = 0;
+        slides.style.transition = 'none'; // Disable transition effect
+        slides.style.transform = `translateX(0)`; // Move to the start
+        setTimeout(() => {
+            slides.style.transition = 'transform 0.5s ease-in-out'; // Re-enable transition effect
             index++;
-            if (index >= slides.children.length) {
-                index = 0;
-            }
             slides.style.transform = `translateX(-${index * 100}%)`;
-        }
+        }, 0);
+    } else {
+        slides.style.transform = `translateX(-${index * 100}%)`;
+    }
+}
 
-        setInterval(showNextSlide, 2000);
+setInterval(showNextSlide, 2000);
+
 
 
     </script>
