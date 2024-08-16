@@ -366,6 +366,11 @@ html {
     box-sizing: border-box;
 }
 
+.mainmmmdiv{
+
+    margin-inline: 12rem;
+}
+
 .keyimg {
     width: 100%;
     max-width: 510px;
@@ -940,6 +945,11 @@ html {
         font-size: 1.4rem;
     }
 
+    .mainmmmdiv{
+
+        margin-inline: 6rem;
+    }
+
 
     .maindivoffstsection {
         display: flex;
@@ -1258,6 +1268,11 @@ html {
         font-size: 1.4rem;
     }
 
+    .mainmmmdiv{
+
+        margin-inline: 2rem;
+    }
+
     .Aorp {
         font-size: 1.6rem;
         font-weight: bold;
@@ -1290,7 +1305,7 @@ html {
 
     .longpdiv p {
         font-size: 1.6rem;
-        padding-inline: 4rem;
+        padding-inline: 1rem;
         width: 100%;
         padding-top: 3rem;
     }
