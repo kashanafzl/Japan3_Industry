@@ -31,6 +31,10 @@ html {
 }
 
 
+.lastlinep{
+    font-size: 16px;
+}
+
 .logodiv img {
     width: 200px;
 
@@ -400,7 +404,7 @@ html {
     color: #fff;
     margin: 0.5rem 0;
     padding: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
 }
 
@@ -929,7 +933,7 @@ html {
 
     .mainsectiondivchildone h1 {
 
-        font-size: 2.5rem;
+        font-size: 2.3rem;
 
     }
 
@@ -950,6 +954,14 @@ html {
         margin-inline: 6rem;
     }
 
+    .mainsectiondivchildone h1 {
+        color: #E92931;
+        font-size: 2.2rem;
+        border: 2px solid #E92931;
+        padding: 10px 20px;
+        position: relative;
+        font-weight: 500;
+    }
 
     .maindivoffstsection {
         display: flex;
@@ -1267,6 +1279,30 @@ html {
     .mainsectiondivchildone h1 {
         font-size: 1.4rem;
     }
+
+    .mainsectiondivchildone h1 {
+        color: #E92931;
+        font-size: 1.8rem;
+        border: 2px solid #E92931;
+        padding: 10px 20px;
+        position: relative;
+        font-weight: 500;
+    }
+
+    
+.lastlinep{
+    font-size: 14px;
+}
+
+.bg2div {
+    background: #e0f8ff;
+    width: 100%;
+    padding: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 
     .mainmmmdiv {
 
@@ -1590,6 +1626,97 @@ html {
         .maindotimg {
 
             width: 286px;
+        }
+
+        .bg2childdiv h1 {
+            font-size: 1.4rem;
+        }
+
+        .bg3maindiv h1 {
+ 
+            font-size: 1.4rem;
+        }
+
+        .bg3maindiv h2 {
+            font-size: 1.4rem;
+        }
+
+        .borderdivh1 h1 {
+            font-size: 1.4rem;
+        }
+
+
+        .bg4div h1 {
+            font-size: 1.4rem;
+            color: #fff;
+            text-align: center;
+        }
+        .bg4b {
+            font-size: 1.4rem;
+        }
+        .bg4div::before {
+            position: absolute;
+            content: '';
+            width: 50px;
+            height: 50px;
+            border-top: 2px solid #00b9f2;
+            border-right: 2px solid #00b9f2;
+            /* z-index: -1; */
+            transform: rotate(132deg);
+            bottom: -24px;
+            left: 44%;
+            background: #00b9f2;
+        }
+        .tickandh2div h2 {
+            font-size: 1.4rem;
+            padding-top: 1rem;
+        }
+
+        .tickandh2div span {
+            color: #E92931;
+            font-size: 1.4rem;
+        }
+        .bluediv h1 {
+            font-size: 1.5rem;
+        }
+
+        .logologo2 {
+            width: 95px;
+        }
+
+        .imgandtick2flex h2 {
+            font-size: 1.4rem;
+        }
+
+        .scard1div p {
+            font-size: 1.4rem;
+            padding-bottom: 2rem;
+        }
+
+        .Aorp {
+            font-size: 1.4rem;
+            font-weight: bold;
+            line-height: 3.5rem;
+            width: 90%;
+        }
+
+        .qdiv h1 {
+            font-size: 1.5rem;
+        }
+
+        .mainppppadiv p {
+            font-size: 1.4rem;
+            font-weight: bold;
+            line-height: 3.5rem;
+            width: 100%;
+            padding-top: 2rem;
+        }
+
+        .longpdiv p {
+            font-size: 1.4rem;
+            padding-inline: 1rem;
+            width: 100%;
+            padding-top: 3rem;
         }
     }
 }
