@@ -1411,7 +1411,7 @@ html {
     }
 
     .imgandtick2flex h2 {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
 
     }
 
@@ -1448,6 +1448,12 @@ html {
 
         padding: 2rem;
 
+    }
+
+
+    .maindivoftick2 {
+   
+        margin-inline: 2rem;
     }
 
     .linearborder {
