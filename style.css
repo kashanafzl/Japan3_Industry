@@ -53,7 +53,7 @@ html {
 }
 
 .laptoppic img {
-    width: 400px;
+    width: 35vw;
 }
 
 .rightsidediv {
@@ -100,11 +100,11 @@ html {
 }
 
 .mainsectionchild2 img {
-    width: 400px;
+    width: 34vw;
 }
 
 .childleft3 h1 {
-    font-size: 2.6rem;
+    font-size: 2vw;
     width: fit-content;
     padding-bottom: 0.5rem;
     text-align: center;
@@ -134,7 +134,7 @@ html {
 }
 
 .mainthreecards img {
-    width: 200px;
+    width: 16vw;
 
 }
 
@@ -970,17 +970,29 @@ html {
             padding-inline: 4rem;
         }
 
+        
+
     }
 
 
 
-@media screen and (max-width:800px) {
-    .linearborder {
-       margin-inline: 4rem;
+
+
+@media screen and (max-width:870px) {
+    .mainsectionchild2 img {
+        width: 46vw;
+    }
+    .laptoppic img {
+        width: 47vw;
     }
 
+    .childleft3 h1 {
+        font-size: 3vw;
+        width: fit-content;
+        padding-bottom: 0.5rem;
+        text-align: center;
+    }
 }
-
 
 @media screen and (max-width:800px) {
     .mainsectiondivchildone h1 {
@@ -1453,13 +1465,13 @@ html {
     .mainppppadiv p {
         font-size: 1.6rem;
         font-weight: bold;
-        line-height: 3.5rem;
+        line-height: 3rem;
         width: 100%;
         padding-top: 2rem;
     }
 
     .qdiv h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .maindivofcccc {
@@ -1647,6 +1659,14 @@ html {
         font-size: 2rem;
     }
 
+    .mainsectiondivchildone {
+        width: fit-content;
+        padding: 1rem;
+        margin-inline: 0rem;
+        margin-top: 5rem;
+    }
+    
+
     .bg3maindiv h1 {
         padding: 0.5rem;
     }
@@ -1730,6 +1750,8 @@ html {
         .logologo2 {
             width: 95px;
         }
+
+      
 
         .imgandtick2flex h2 {
             font-size: 1.4rem;
