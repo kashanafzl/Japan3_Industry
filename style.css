@@ -1420,6 +1420,10 @@ html {
         height: auto;
     }
 
+    .tickandh2div img{
+        width: 40px;
+    }
+
     .lastpp {
         padding-inline: 3rem;
         font-size: 1.6rem;
