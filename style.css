@@ -1411,8 +1411,13 @@ html {
     }
 
     .imgandtick2flex h2 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
 
+    }
+
+    .tick2 {
+        width: 20px;
+        height: auto;
     }
 
     .lastpp {
