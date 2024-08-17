@@ -822,7 +822,7 @@ html {
 
 @media (max-width: 768px) {
     .card h2 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .card p {
@@ -1421,7 +1421,9 @@ html {
         text-align: center;
     }
 
-
+    .slidermaindata h6 {
+        font-size: 1.6rem;
+    }
 
 
     .htt h1 {
@@ -1454,7 +1456,7 @@ html {
  
 
     .slidermaindata h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
 
@@ -1665,7 +1667,7 @@ html {
         margin-inline: 0rem;
         margin-top: 5rem;
     }
-    
+
 
     .bg3maindiv h1 {
         padding: 0.5rem;
