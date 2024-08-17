@@ -1519,14 +1519,14 @@ html {
     }
 
     .scard1div p {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         padding-bottom: 2rem;
     }
 
 
     .scard1div h1 {
 
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .tickandh2div h2 {
@@ -1561,7 +1561,7 @@ html {
 
     .step1andtext img {
         width: 100%;
-        max-width: 75px;
+        max-width: 65px;
     }
 
     .bg4div h1 {
@@ -1768,10 +1768,14 @@ html {
             width: 95px;
         }
 
+        .bgheading2maindiv h1, .bgheading2maindiv h2 {
       
+            font-size: 1.3rem;
+          
+        }
 
         .imgandtick2flex h2 {
-            font-size: 1.4rem;
+            font-size: 1.1rem;
         }
 
         .scard1div p {
