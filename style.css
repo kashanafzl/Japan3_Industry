@@ -886,7 +886,7 @@ html {
         text-align: left;
     }
 
- 
+
 
     .bgheading2maindiv h1,
     .bgheading2maindiv h2 {
@@ -943,36 +943,37 @@ html {
         .mainsectiondivchildone h1 {
             font-size: 1.8rem;
         }
-    
+
     }
 
 
 
 }
-    @media screen and (max-width:950px) {
 
-        .maindivoffstsection {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-    
-        .rightsidediv {
-            padding-top: 8rem;
-            margin-right: 0rem;
-        }
+@media screen and (max-width:950px) {
 
-        .mainthreecards {
-            display: flex;
-            justify-content: center;
-            gap: 5rem;
-            padding-top: 3rem;
-            padding-inline: 4rem;
-        }
-
-        
-
+    .maindivoffstsection {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
+
+    .rightsidediv {
+        padding-top: 8rem;
+        margin-right: 0rem;
+    }
+
+    .mainthreecards {
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        padding-top: 3rem;
+        padding-inline: 4rem;
+    }
+
+
+
+}
 
 
 
@@ -982,6 +983,7 @@ html {
     .mainsectionchild2 img {
         width: 46vw;
     }
+
     .laptoppic img {
         width: 47vw;
     }
@@ -1420,8 +1422,8 @@ html {
         height: auto;
     }
 
-    .tickandh2div img{
-        width: 40px;
+    .tickandh2div img {
+        width: 35px;
     }
 
     .lastpp {
@@ -1461,14 +1463,14 @@ html {
 
 
     .maindivoftick2 {
-   
+
         margin-inline: 2rem;
     }
 
     .linearborder {
         margin-inline: 2rem;
-     }
- 
+    }
+
 
     .slidermaindata h1 {
         font-size: 1.6rem;
@@ -1541,7 +1543,7 @@ html {
 
     .marktextmaindiv img {
         text-align: center;
-        width: 365px;
+        width: 280px;
     }
 
     .maindotimg {
@@ -1768,10 +1770,11 @@ html {
             width: 95px;
         }
 
-        .bgheading2maindiv h1, .bgheading2maindiv h2 {
-      
+        .bgheading2maindiv h1,
+        .bgheading2maindiv h2 {
+
             font-size: 1.3rem;
-          
+
         }
 
         .imgandtick2flex h2 {

@@ -1238,7 +1238,7 @@
     </div>
 
 
-    
+
     <div class="bluediv">
         <h1>特定商取引法に基づく表記 <br>
 
@@ -1250,31 +1250,31 @@
 
     <script>
 
-const slides = document.querySelector('.slides');
-const slideCount = slides.children.length;
-let index = 0;
+        const slides = document.querySelector('.slides');
+        const slideCount = slides.children.length;
+        let index = 0;
 
-// Clone the first slide and append it to the end
-const firstSlideClone = slides.children[0].cloneNode(true);
-slides.appendChild(firstSlideClone);
+        // Clone the first slide and append it to the end
+        const firstSlideClone = slides.children[0].cloneNode(true);
+        slides.appendChild(firstSlideClone);
 
-function showNextSlide() {
-    index++;
-    slides.style.transition = 'transform 0.5s ease-in-out';
-    slides.style.transform = `translateX(-${index * 100}%)`;
+        function showNextSlide() {
+            index++;
+            slides.style.transition = 'transform 0.5s ease-in-out';
+            slides.style.transform = `translateX(-${index * 100}%)`;
 
-    // Reset to the start (without transition) after the last slide
-    if (index >= slideCount) {
-        setTimeout(() => {
-            slides.style.transition = 'none';
-            slides.style.transform = 'translateX(0)';
-            index = 0;
-        }, 500); // Wait for the slide transition to complete
-    }
-}
+            // Reset to the start (without transition) after the last slide
+            if (index >= slideCount) {
+                setTimeout(() => {
+                    slides.style.transition = 'none';
+                    slides.style.transform = 'translateX(0)';
+                    index = 0;
+                }, 500); // Wait for the slide transition to complete
+            }
+        }
 
 
-setInterval(showNextSlide, 2000);
+        setInterval(showNextSlide, 2000);
 
 
 
