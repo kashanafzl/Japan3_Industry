@@ -1382,11 +1382,11 @@ html {
     .longh1div h1 {
 
         color: #00B9F2;
-        font-size: 2.5rem;
+        font-size: 2rem;
         padding-top: 3rem;
         padding-bottom: 1rem;
         border-bottom: 2px solid #00B9F2;
-        padding-inline: 4rem;
+        padding-inline: 0rem;
     }
 
     .longpdiv p {
@@ -1467,7 +1467,7 @@ html {
     .mainppppadiv p {
         font-size: 1.6rem;
         font-weight: bold;
-        line-height: 3rem;
+        line-height: 2.5rem;
         width: 100%;
         padding-top: 2rem;
     }
