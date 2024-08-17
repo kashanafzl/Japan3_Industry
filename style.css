@@ -366,7 +366,7 @@ html {
     flex-direction: column;
     justify-content: center;
     margin: 4rem auto;
-    max-width: 90%;
+    max-width: max-content;
     box-sizing: border-box;
 }
 
@@ -375,11 +375,11 @@ html {
     margin-inline: 12rem;
 }
 
-.keyimg {
+/* .keyimg {
     width: 100%;
     max-width: 510px;
-    /* margin: 1rem auto; */
-}
+    margin: 1rem auto;
+} */
 
 .step1andtext {
     display: flex;
@@ -880,22 +880,13 @@ html {
 
 
 
-
-
-
-
-
-
-
-@media (min-width: 600px) {
+@media (min-width: 900px) {
     .step1andtext {
         flex-direction: row;
         text-align: left;
     }
 
-    .textmaindiv2 {
-        width: auto;
-    }
+ 
 
     .bgheading2maindiv h1,
     .bgheading2maindiv h2 {
@@ -909,9 +900,15 @@ html {
     }
 }
 
+
+
+
+
+
+
 @media (min-width: 900px) {
     .linearborder {
-        max-width: 43%;
+        max-width: max-content;
     }
 
     .bgheading2maindiv h1,
@@ -928,6 +925,7 @@ html {
 /* media queries */
 
 
+
 @media screen and (max-width:1150px) {
 
 
@@ -940,6 +938,46 @@ html {
 
 
 
+    @media screen and (max-width:1090px) {
+
+        .mainsectiondivchildone h1 {
+            font-size: 1.8rem;
+        }
+    
+    }
+
+
+
+}
+    @media screen and (max-width:950px) {
+
+        .maindivoffstsection {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        .rightsidediv {
+            padding-top: 8rem;
+            margin-right: 0rem;
+        }
+
+        .mainthreecards {
+            display: flex;
+            justify-content: center;
+            gap: 5rem;
+            padding-top: 3rem;
+            padding-inline: 4rem;
+        }
+
+    }
+
+
+
+@media screen and (max-width:800px) {
+    .linearborder {
+       margin-inline: 4rem;
+    }
 
 }
 
@@ -1282,7 +1320,7 @@ html {
 
     .mainsectiondivchildone h1 {
         color: #E92931;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         border: 2px solid #E92931;
         padding: 10px 20px;
         position: relative;
@@ -1397,6 +1435,11 @@ html {
         padding: 2rem;
 
     }
+
+    .linearborder {
+        margin-inline: 2rem;
+     }
+ 
 
     .slidermaindata h1 {
         font-size: 2rem;
