@@ -986,7 +986,7 @@ html {
         display: flex;
         justify-content: center;
         gap: 5rem;
-        padding-top: 3rem;
+        padding-top: 1rem;
         padding-inline: 4rem;
     }
 
@@ -1015,9 +1015,14 @@ html {
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:820px) {
     .mainsectiondivchildone h1 {
         font-size: 1.4rem;
+    }
+
+    .mainflexsdiv {
+ 
+        margin-inline: 4rem;
     }
 
     .mainmmmdiv {
@@ -1344,6 +1349,16 @@ html {
         padding: 0.5rem;
     }
 
+    .slider {
+    height: 500px;
+    width: 90%;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #02B9F2;
+    margin-block: 6rem;
+}
+
 }
 
 @media screen and (max-width:500px) {
@@ -1471,6 +1486,12 @@ html {
     }
 
 
+    .leftsidediv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .htt h1 {
         font-size: 3rem;
 
@@ -1478,15 +1499,15 @@ html {
 
 
     .mainsectionchild2 img {
-        width: 280px;
+        width: 380px;
     }
 
     .childleft3 h1 {
-        font-size: 2.2rem;
+        font-size: 2.4rem;
     }
 
     .laptoppic img {
-        width: 360px;
+        width: 390px;
     }
 
     .bg5div {
@@ -1548,10 +1569,12 @@ html {
 
     .mainflexsdiv {
         display: flex;
+        flex-direction: column;
         /* justify-content: center; */
-        gap: 1rem;
+        gap: 3rem;
         margin-block: 6rem;
         margin-inline: 1rem;
+        align-items: center;
     }
 
     .scard1div p {
@@ -1624,7 +1647,7 @@ html {
 
 
     .rightsidediv {
-        padding-top: 3rem;
+        padding-top: 1rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1643,8 +1666,8 @@ html {
     }
 
     .mainthreecards img {
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 122px;
 
     }
 
@@ -1722,7 +1745,7 @@ html {
         width: fit-content;
         padding: 1rem;
         margin-inline: 0rem;
-        margin-top: 5rem;
+        margin-top: 1rem;
     }
 
 
@@ -1830,6 +1853,22 @@ html {
         .scard1div p {
             font-size: 1.4rem;
             padding-bottom: 2rem;
+        }
+
+        .mainsectionchild2 img {
+            width: 332px;
+        }
+
+        .laptoppic img {
+            width: 337px;
+        }
+
+        .childleft3 h1 {
+            font-size: 2.1rem;
+        }
+        .mainthreecards img {
+            width: 100px;
+            height: 100px;
         }
 
         .Aorp {
