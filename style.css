@@ -100,11 +100,11 @@ html {
 }
 
 .mainsectionchild2 img {
-    width: 34vw;
+    width: 43vw;
 }
 
 .childleft3 h1 {
-    font-size: 2vw;
+    font-size: 2.3vw;
     width: fit-content;
     padding-bottom: 0.5rem;
     text-align: center;
@@ -209,12 +209,11 @@ html {
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
-    padding: 6rem;
+    padding-block: 6rem;
 
 }
 
-
-.bg3maindiv {
+.mainplayicondiv {
     background: #269248;
     color: #fff;
     text-align: center;
@@ -222,6 +221,25 @@ html {
     border-radius: 2rem;
     padding: 1.5rem;
     margin-inline: 8rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.palyiconicon {
+    width: 40px;
+    position: absolute;
+    bottom: 40%;
+    right: 20px;
+}
+
+
+.bg3maindiv {
+    /* align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center; */
 }
 
 
@@ -300,7 +318,7 @@ html {
 
 
 .bg4div h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     color: #fff;
     text-align: center;
 }
@@ -335,6 +353,7 @@ html {
 
 .tickandh2div h2 {
     font-size: 2.5rem;
+    line-height: 47px;
     padding-top: 1rem;
 }
 
@@ -349,7 +368,7 @@ html {
 }
 
 .marktextmaindiv img {
-    width: 650px;
+    width: 550px;
 }
 
 
@@ -483,7 +502,7 @@ html {
 
 .childonemaindiv span {
     color: #E92931;
-    font-family: 800;
+    font-weight: 500;
 }
 
 .bgyellowdiv {
@@ -959,7 +978,7 @@ html {
     }
 
     .rightsidediv {
-        padding-top: 8rem;
+        padding-top: 4rem;
         margin-right: 0rem;
     }
 
@@ -1398,6 +1417,10 @@ html {
         padding-top: 3rem;
     }
 
+    .tickandh2div h2 {
+        line-height: 35px;
+    }
+
     .transldiv {
         transform: translateX(0px);
     }
@@ -1434,6 +1457,17 @@ html {
 
     .slidermaindata h6 {
         font-size: 1.6rem;
+    }
+
+    .mainplayicondiv {
+        margin-inline: 5rem;
+    }
+
+    .palyiconicon {
+        width: 30px;
+        position: absolute;
+        bottom: 40%;
+        right: 14px;
     }
 
 
@@ -1540,6 +1574,12 @@ html {
         color: #E92931;
         font-size: 2rem;
     }
+
+    .qdiv {
+
+        padding: 1rem;
+    }
+
 
     .marktextmaindiv img {
         text-align: center;
@@ -1752,6 +1792,12 @@ html {
             background: #00b9f2;
         }
 
+
+        .mainplayicondiv {
+            margin-inline: 3rem;
+        }
+
+
         .tickandh2div h2 {
             font-size: 1.4rem;
             padding-top: 1rem;
@@ -1794,13 +1840,13 @@ html {
         }
 
         .qdiv h1 {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }
 
         .mainppppadiv p {
             font-size: 1.4rem;
             font-weight: bold;
-            line-height: 3.5rem;
+            line-height: 3rem;
             width: 100%;
             padding-top: 2rem;
         }
