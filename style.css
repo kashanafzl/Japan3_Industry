@@ -844,7 +844,7 @@ html {
 
 .card p {
     font-size: 16px;
-    padding-top: 2rem;
+    padding-top: 1rem;
     color: black;
     text-align: left;
 }
@@ -852,8 +852,11 @@ html {
 
 
 .card p {
+    line-height: 3rem;
     font-size: 14px;
-    text-align: left;
+    /* text-align: left; */
+    width: 70%;
+    text-align: justify;
 }
 
 
@@ -1364,7 +1367,7 @@ html {
     }
 
     .slider {
-        height: 500px;
+        height: 620px;
         width: 90%;
         max-width: 600px;
         overflow: hidden;
@@ -1607,6 +1610,15 @@ html {
         font-size: 1.6rem;
     }
 
+    .card p {
+        line-height: 3rem;
+        font-size: 14px;
+        /* text-align: left; */
+        width: 90%;
+        text-align: justify;
+    }
+
+    
     .tickandh2div h2 {
         font-size: 1.8rem;
         padding-top: 1rem;
@@ -1775,6 +1787,12 @@ html {
         padding: 1rem;
     }
 
+    .mainboxborderdiv {
+        height: 70vh;
+
+    }
+
+
     .bg3maindiv h1 {
         padding: 0.5rem;
     }
@@ -1782,7 +1800,10 @@ html {
     @media screen and (max-width:400px) {
 
 
+  .mainboxborderdiv {
+        height: 100vh;
 
+    }
 
         .tickandh2div span {
             color: #E92931;
@@ -1904,6 +1925,12 @@ html {
             font-weight: bold;
             line-height: 3.5rem;
             width: 90%;
+        }
+
+        .slider {
+            height: 671px;
+            width: 90%;
+            max-width: 600px;
         }
 
         .qdiv h1 {
