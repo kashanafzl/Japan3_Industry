@@ -217,10 +217,10 @@ html {
     background: #269248;
     color: #fff;
     text-align: center;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
-    border-radius: 2rem;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 3rem;
     padding: 1.5rem;
-    margin-inline: 8rem;
+    margin-inline: 10rem;
     display: flex;
     justify-content: center;
     position: relative;
@@ -645,7 +645,7 @@ html {
 
 
 .qdiv {
-    margin-block: 2rem;
+    margin-block: 1rem;
     display: flex;
     gap: 2rem;
     align-items: center;
@@ -657,12 +657,14 @@ html {
 
 .mainboxborderdiv {
     border: 2px solid #00B9F2;
-    margin-inline: 15rem;
+    max-width: 1140px;
+    margin: 0 auto;
     padding: 2rem;
 }
 
-.maindivofcccc {
-    margin-inline: 15rem;
+.mainmaxwidthdiv {
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .qimg {
@@ -720,6 +722,7 @@ html {
     gap: 2rem;
     border: 2px solid #00B9F2;
     padding: 2rem;
+ 
 }
 
 
@@ -732,9 +735,7 @@ html {
     width: 80%;
 }
 
-.mainqaqadiv {
-    margin-inline: 15rem;
-}
+
 
 
 @media (min-width: 768px) {
@@ -839,16 +840,12 @@ html {
     text-align: left;
 }
 
-@media (max-width: 768px) {
-    .card h2 {
-        font-size: 16px;
-    }
+
 
     .card p {
         font-size: 14px;
         text-align: left;
     }
-}
 
 
 
@@ -1747,7 +1744,13 @@ html {
         margin-inline: 0rem;
         margin-top: 1rem;
     }
-
+    .mainppppadiv {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        border: 2px solid #00B9F2;
+        padding: 1rem;
+    }
 
     .bg3maindiv h1 {
         padding: 0.5rem;
@@ -1863,6 +1866,7 @@ html {
             width: 337px;
         }
 
+ 
         .childleft3 h1 {
             font-size: 2.1rem;
         }
